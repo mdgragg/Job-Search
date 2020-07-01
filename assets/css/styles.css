@@ -1,0 +1,74 @@
+/*  
+Dark Blue: #283555  
+Light Blue: #4c638c
+*/
+
+body {}
+
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.h1-box{
+    position: relative;
+    display: inline-block; 
+}
+.h1-box h1{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 50px; 
+    background: #283555;
+    color: #fff;
+    width: 30%;
+    height: 50px;
+}
+
+header h1 {
+    margin-top: -25px;
+}
+
+
+
+#job-search {
+    margin-top: -25px;
+    margin-left: -20px;
+}
+
+form .input-field {
+    background: white;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+  /* label focus color */
+.container form .row .input-field input[type=text]:focus + label {
+    color: white;
+  }
+  /* label underline focus color */
+  .container form .row .input-field input[type=text]:focus {
+    border-bottom: 1px solid #283555;
+    box-shadow: 0 1px 0 0 #283555;
+  }
+
+
+form .submit-field {
+    position: relative;
+    background: #283555;
+    
+    margin-right: -20px;
+}
+
+button {
+    border: none;
+    background: #283555;
+    color: white;
+    height: 45px;
+    width: 100%;
+
+}
